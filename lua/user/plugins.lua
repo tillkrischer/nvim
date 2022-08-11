@@ -51,9 +51,12 @@ return packer.startup(function(use)
   use 'kyazdani42/nvim-tree.lua'
   use { "akinsho/bufferline.nvim", tag = 'v2.*' }
   use "moll/vim-bbye"
+  use 'nvim-lualine/lualine.nvim'
 
   -- Colorschemes
   use 'folke/tokyonight.nvim'
+  use 'cormacrelf/vim-colors-github'
+  use 'NLKNguyen/papercolor-theme'
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin

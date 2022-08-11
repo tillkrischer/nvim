@@ -32,8 +32,9 @@ local options = {
   splitbelow    = true,
   splitright    = true,
 
---  timeoutlen = 100,
-  updatetime = 300,
+--  timeoutlen    = 100,
+  updatetime    = 300,
+  background    = "light"
 }
 
 vim.opt.shortmess:append "c"
