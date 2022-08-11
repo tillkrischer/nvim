@@ -34,7 +34,6 @@ local options = {
 
 --  timeoutlen    = 100,
   updatetime    = 300,
-  background    = "light"
 }
 
 vim.opt.shortmess:append "c"
