@@ -44,3 +44,4 @@ end
 
 vim.cmd [[set iskeyword+=-]]
 vim.cmd "set whichwrap+=<,>,[,],h,l"
+vim.cmd "language en_US"
